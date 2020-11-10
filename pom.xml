@@ -50,5 +50,11 @@
             <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>managedblockchain</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
     </dependencies>
 </project>
